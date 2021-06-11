@@ -10,18 +10,18 @@
 	color: #6FB3B8;
 }
 #jumboH {
-	font-family: 'Arvo', serif;
-	color: #6FB3B8;
+	font-family: 'Finger Paint', cursive;
+	color: #F6F6F2;
 	font-size: 50px;
 }
 #jumboP {
-	color: #6FB3B8;
-	font-family: 'Arvo', serif;
+	color: #F6F6F2;
+	font-family: 'Finger Paint', cursive;
 	font-weight: bold;
 	font-style: italic;
 }
 #jumbo {
-
+	background-image: url("images/jumboBg.jpg");
 }
 
 /* About Me */
@@ -32,12 +32,12 @@
 }
 
 #headings {
-	font-family: 'Lobster', cursive;
+	font-family: 'Knewave', cursive;
 	color: #6FB3B8;
 	font-size: 50px;
 }
 #headings2 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Knewave', cursive;
 	color: #6FB3B8;
 }
 #aboutp {
@@ -61,7 +61,7 @@
 	background-color: #6FB3B8;
 }
 #label {
-	font-family: 'Lobster', cursive;
+	font-family: 'Knewave', cursive;
 	color: #6FB3B8;
 	font-size: 25px;
 }
