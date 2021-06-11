@@ -1,25 +1,56 @@
 /* Header */
 header {
-	border-bottom: 6px solid gray;
+	border-bottom: 6px solid cyan;
 }
 
+#navbar	{
+	background-color: rgba(0,0,0,0.8);
+}
+#navlink {
+	color: cyan;
+}
 
 /* About Me */
 #about {
-	background-color: #F5F5F5;
+	background-color: rgba(0,0,0,0.8);
 	padding: 30px;
-	border-bottom: 6px solid gray;
+	border-bottom: 6px solid cyan;
 }
 
+#headings {
+	font-family: 'Lobster', cursive;
+	color: cyan;
+	font-size: 50px;
+}
+#headings2 {
+	font-family: 'Lobster', cursive;
+	color: cyan;
+}
+#aboutp {
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Projects */
 #projects {
-	border-bottom: 6px solid gray;
-}
-
-#contact {
-	border-bottom: 6px solid gray;
+	background-color: rgba(0,0,0,0.9);
+	border-bottom: 6px solid cyan;
 }
 
 /* Contact */
+#contact {
+	background-color: rgba(0,0,0,0.8);
+	border-bottom: 6px solid cyan;
+}
+#sendbutton {
+	background-color: cyan;
+}
+#label {
+	font-family: 'Lobster', cursive;
+	color: cyan;
+	font-size: 25px;
+}
 /* Map */
 .responsive-iframe {
 	position: absolute;
@@ -33,22 +64,8 @@ header {
 
 /* Footer */
 footer {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(248,248,255,1);
+	/*background-color: rgba(0,0,0,0.8);*/
+	padding: 35px;
 
-}
-
-.fab {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fas {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
 }
