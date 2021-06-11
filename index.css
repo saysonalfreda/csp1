@@ -10,14 +10,18 @@
 	color: #6FB3B8;
 }
 #jumboH {
-	font-family: 'Lobster', cursive;
+	font-family: 'Arvo', serif;
 	color: #6FB3B8;
 	font-size: 50px;
 }
 #jumboP {
 	color: #6FB3B8;
+	font-family: 'Arvo', serif;
 	font-weight: bold;
 	font-style: italic;
+}
+#jumbo {
+
 }
 
 /* About Me */
@@ -79,7 +83,10 @@ footer {
 	padding: 35px;
 	/* #6FB3B8*/
 }
-.content{
+.content {
 	max-width: 70%;
 	margin: auto;
+}
+.col-sm-12 {
+	width: 100%;
 }

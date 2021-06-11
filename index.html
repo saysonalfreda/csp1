@@ -10,12 +10,17 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="index.css"/>
     <!-- Font -->
+   	<!-- Lobster -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
+    <!-- Arvo -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
 	<title>Developer Portfolio</title>
 </head>
-<body>
+<body >
 	<header id="header">
 	<!-- Nav bar -->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top position-fixed" id="navbar">
@@ -42,18 +47,20 @@
 	   </div>
 	 </nav>
 	</header>
-<div class="content">
+
+<div class="container-fluid justify-content-center col-sm-12 col-md-8">
 	<!-- Jumbotron -->
-	<div class="jumbotron mt-5">
+	<div id="jumbo" class="jumbotron mt-5">
 	  <div class="container">
 	    <h1 id="jumboH">Welcome to my page!</h1>
 	    <p id="jumboP" class="lead">alfredsayson - Full Stack Web Developer</p>
 	  </div>
 	</div>
+
 	<!-- About Section -->
 	<section id="about">
 		<div class="container-fluid">
-			<h2 id="headings" class="text-center mt-2 mb-2">About Me</h2>
+			<h2 id="headings" class="text-center pt-2 pb-2">About Me</h2>
 			<div class="row mt-2 mb-2">
 				<div class="col-sm-12 col-md-6 order-1">
 					<h3 id="headings2">Work Experience</h3>
@@ -110,25 +117,26 @@
 	<section id="projects">
 		<div class="container-fluid">
 		<h2 id="headings" class="text-center pt-2 pb-2">My Projects</h2>
-		<div class="d-flex justify-content-center flex-wrap">
-			<div class="card mr-5 ml-5 mt-5 mb-5" style="width: 18rem;">
-			  <img src="images/firstproj.png" class="card-img-top" alt="...">
+		<!-- <div class="d-flex justify-content-center flex-wrap"> -->
+		<div class="row justify-content-center">
+			<div class="col-sm-8 col-md-3 order-1 card mr-3 ml-3 mb-3" style="width: 18rem;">
+			  <img class="img-fluid" src="images/firstproj.png" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title">Capstone 1</h5>
 			    <p class="card-text">This is my first Project</p>
 			    <a href="https://saysonalfreda.github.io/csp1/" target="_blank" class="btn btn-primary">Project Link</a>
 			  </div>
 			</div>
-			<div class="card mr-5 ml-5 mt-5 mb-5" style="width: 18rem;">
-			  <img src="images/loading.jpg" class="card-img-top" alt="...">
+			<div class="col-sm-8 col-md-3 order-2 card mr-3 ml-3 mb-3" style="width: 18rem;">
+			  <img class="img-fluid" src="images/loading.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title">To be display</h5>
 			    <p class="card-text">Project still in progress</p>
 			    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 			  </div>
 			</div>
-			<div class="card mr-5 ml-5 mt-5 mb-5" style="width: 18rem;">
-			  <img src="images/loading.jpg" class="card-img-top" alt="...">
+			<div class="col-sm-8 col-md-3 order-3 card mr-3 ml-3 mb-3" style="width: 18rem;">
+			  <img class="img-fluid" src="images/loading.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title">To be display</h5>
 			    <p class="card-text">Project still in progress</p>
@@ -230,7 +238,6 @@
 		</div>
 	</footer>
 </div>
-
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
