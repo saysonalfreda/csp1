@@ -10,18 +10,26 @@
 	color: #6FB3B8;
 }
 #jumboH {
-	font-family: 'Finger Paint', cursive;
+	font-family: 'Poiret One', cursive;
 	color: #F6F6F2;
-	font-size: 50px;
+	font-size: 100px;
 }
 #jumboP {
 	color: #F6F6F2;
-	font-family: 'Finger Paint', cursive;
+	font-family: 'Poiret One', cursive;
 	font-weight: bold;
 	font-style: italic;
 }
 #jumbo {
 	background-image: url("images/jumboBg.jpg");
+	background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+body {
+	background-color: #F6F6F2;
 }
 
 /* About Me */
@@ -32,12 +40,12 @@
 }
 
 #headings {
-	font-family: 'Knewave', cursive;
+	font-family: 'Poiret One', cursive;
 	color: #6FB3B8;
 	font-size: 50px;
 }
 #headings2 {
-	font-family: 'Knewave', cursive;
+	font-family: 'Poiret One', cursive;
 	color: #6FB3B8;
 }
 #aboutp {
@@ -61,7 +69,7 @@
 	background-color: #6FB3B8;
 }
 #label {
-	font-family: 'Knewave', cursive;
+	font-family: 'Poiret One', cursive;
 	color: #6FB3B8;
 	font-size: 25px;
 }
